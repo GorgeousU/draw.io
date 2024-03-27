@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T02:46:08.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="vA2LeVt2VNLjoS4qTeyi" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T02:55:11.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="S-c0Hk4LnjURR-xHY7Pa" version="24.1.0" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
-    <mxGraphModel dx="4356" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4620" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -848,7 +848,7 @@
         <mxCell id="tJzpw2tQZu4D2FShOguC-49" value="Integer" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="tJzpw2tQZu4D2FShOguC-48" vertex="1" connectable="0">
           <mxGeometry width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tJzpw2tQZu4D2FShOguC-44" value="prodStatus" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="tJzpw2tQZu4D2FShOguC-35" vertex="1">
+        <mxCell id="tJzpw2tQZu4D2FShOguC-44" value="releaseStatus" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="tJzpw2tQZu4D2FShOguC-35" vertex="1">
           <mxGeometry y="112" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tJzpw2tQZu4D2FShOguC-45" value="String" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="tJzpw2tQZu4D2FShOguC-44" vertex="1" connectable="0">
