@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T09:44:52.409Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ocOXtX3Filu-MR7AY8Ez" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T01:36:06.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="6jCFpv43ihrboBuVTyct" version="24.2.1" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
-    <mxGraphModel dx="4356" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4542" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2e49270ec7c68f3f-80" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_repository&lt;br&gt;代码仓库实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" parent="1" vertex="1">
-          <mxGeometry x="-370" y="380" width="200" height="194" as="geometry">
+          <mxGeometry x="-380" y="440" width="200" height="194" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -101,7 +101,7 @@
           <mxGeometry width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O6Xav4mhRYfriTPROPmg-35" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_host&lt;br&gt;项目主机实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="480" width="200" height="272" as="geometry">
+          <mxGeometry x="180" y="350" width="200" height="272" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -141,10 +141,10 @@
         <mxCell id="O6Xav4mhRYfriTPROPmg-45" value="String" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="O6Xav4mhRYfriTPROPmg-44" vertex="1" connectable="0">
           <mxGeometry width="50" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5eCq7fv8bTQBScM9qxxR-4" value="creatorId" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="O6Xav4mhRYfriTPROPmg-35">
+        <mxCell id="5eCq7fv8bTQBScM9qxxR-4" value="creatorId" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="O6Xav4mhRYfriTPROPmg-35" vertex="1">
           <mxGeometry y="186" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="5eCq7fv8bTQBScM9qxxR-5" value="Long" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="5eCq7fv8bTQBScM9qxxR-4">
+        <mxCell id="5eCq7fv8bTQBScM9qxxR-5" value="Long" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="5eCq7fv8bTQBScM9qxxR-4" vertex="1" connectable="0">
           <mxGeometry width="50" height="26" as="geometry" />
         </mxCell>
         <mxCell id="O6Xav4mhRYfriTPROPmg-48" value="createdTime" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="O6Xav4mhRYfriTPROPmg-35" vertex="1">
@@ -195,7 +195,7 @@
           <mxGeometry width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3eZRsoby6fcUmBOyNSS_-9" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_projects&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;项目实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="512" width="200" height="280" as="geometry">
+          <mxGeometry x="-90" y="566" width="200" height="280" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -280,7 +280,7 @@
             <mxPoint x="-420" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3eZRsoby6fcUmBOyNSS_-38" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_remote_mirror&lt;br&gt;镜像仓库实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="3eZRsoby6fcUmBOyNSS_-38" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_mirror_repository&lt;br&gt;镜像仓库实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="-700" y="720" width="200" height="138" as="geometry">
             <mxRectangle x="-50" y="510" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -890,13 +890,13 @@
             <mxPoint x="90" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5eCq7fv8bTQBScM9qxxR-2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;curved=0;" edge="1" parent="1" source="O6Xav4mhRYfriTPROPmg-19" target="3eZRsoby6fcUmBOyNSS_-26">
+        <mxCell id="5eCq7fv8bTQBScM9qxxR-2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;curved=0;" parent="1" source="O6Xav4mhRYfriTPROPmg-19" target="3eZRsoby6fcUmBOyNSS_-26" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-10" y="450" as="sourcePoint" />
             <mxPoint x="90" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5eCq7fv8bTQBScM9qxxR-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#b0e3e6;strokeColor=#0e8088;" edge="1" parent="1" source="O6Xav4mhRYfriTPROPmg-19" target="5eCq7fv8bTQBScM9qxxR-4">
+        <mxCell id="5eCq7fv8bTQBScM9qxxR-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" source="O6Xav4mhRYfriTPROPmg-19" target="5eCq7fv8bTQBScM9qxxR-4" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="40" y="410" as="sourcePoint" />
             <mxPoint x="140" y="310" as="targetPoint" />
