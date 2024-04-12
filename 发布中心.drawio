@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-12T03:01:51.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="H_DLuHbxMfca1P6e4QrL" version="24.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-12T03:04:21.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="IFL8wf70Bi0YIzr9SHjm" version="24.2.3" type="github" pages="3">
   <diagram name="发布中心ER图" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="4356" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
@@ -1110,24 +1110,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jp6jVUF_c2Kfx7Agv0aI" name="Maven构建原型">
-    <mxGraphModel dx="1408" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1625" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kEkI4fG8PbqbrNFcRWXI-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;自定义docker maven镜像&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="190" width="270" height="410" as="geometry" />
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;自定义docker maven镜像&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="470" width="270" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="kEkI4fG8PbqbrNFcRWXI-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;基础镜像&lt;br&gt;centos:7&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-1">
-          <mxGeometry x="70" y="50" width="130" height="60" as="geometry" />
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;基础镜像&lt;br&gt;centos:7&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-1">
+          <mxGeometry x="40" y="50" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kEkI4fG8PbqbrNFcRWXI-4" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;安装git和&lt;br&gt;maven3的最高版本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-1">
-          <mxGeometry x="70" y="200" width="130" height="70" as="geometry" />
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;安装git和&lt;br&gt;maven3的最高版本&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-1">
+          <mxGeometry x="40" y="220" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="kEkI4fG8PbqbrNFcRWXI-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;安装java 8 11 17&lt;br&gt;安装jenv来管理java版本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-1">
-          <mxGeometry x="70" y="120" width="130" height="70" as="geometry" />
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;安装java 8 11 17&lt;br&gt;安装jenv来管理java版本&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-1">
+          <mxGeometry x="40" y="120" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="kEkI4fG8PbqbrNFcRWXI-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;执行自定义的脚本&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-1">
-          <mxGeometry x="70" y="290" width="130" height="70" as="geometry" />
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;执行自定义的脚本&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-1">
+          <mxGeometry x="40" y="310" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kEkI4fG8PbqbrNFcRWXI-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;插件界面内容&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="190" width="340" height="300" as="geometry" />
@@ -1141,7 +1141,7 @@
         <mxCell id="kEkI4fG8PbqbrNFcRWXI-13" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;自定义的构建命令&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-9">
           <mxGeometry x="105" y="210" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kEkI4fG8PbqbrNFcRWXI-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kEkI4fG8PbqbrNFcRWXI-9" target="kEkI4fG8PbqbrNFcRWXI-18">
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="kEkI4fG8PbqbrNFcRWXI-9" target="kEkI4fG8PbqbrNFcRWXI-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1390" y="820" as="sourcePoint" />
             <mxPoint x="1390" y="830" as="targetPoint" />
@@ -1155,8 +1155,17 @@
         <mxCell id="kEkI4fG8PbqbrNFcRWXI-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1.java版本&lt;br&gt;2.构建命令&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1290" y="850" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="kEkI4fG8PbqbrNFcRWXI-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;流水线maven构建步骤&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="780" width="290" height="360" as="geometry" />
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;流水线maven构建步骤&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="590" width="290" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;拉取自定义的maven镜像&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="kEkI4fG8PbqbrNFcRWXI-19">
+          <mxGeometry x="60" y="50" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="kEkI4fG8PbqbrNFcRWXI-1" target="kEkI4fG8PbqbrNFcRWXI-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="810" as="sourcePoint" />
+            <mxPoint x="830" y="760" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
