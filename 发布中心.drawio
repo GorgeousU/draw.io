@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T08:30:12.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Gt0tn3xPCUJLZD4vCeu-" version="24.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-15T08:30:31.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ZP0F8w8EWJeg36l-_9bE" version="24.2.3" type="github" pages="3">
   <diagram name="发布中心ER图" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="4356" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
@@ -1110,7 +1110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jp6jVUF_c2Kfx7Agv0aI" name="Maven构建原型">
-    <mxGraphModel dx="1509" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="2112" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1162,12 +1162,12 @@
           <mxGeometry x="1290" y="850" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="kEkI4fG8PbqbrNFcRWXI-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;流水线maven构建步骤&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="590" y="590" width="290" height="440" as="geometry" />
+          <mxGeometry x="590" y="590" width="290" height="310" as="geometry" />
         </mxCell>
         <mxCell id="kEkI4fG8PbqbrNFcRWXI-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;拉取自定义的maven镜像&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="kEkI4fG8PbqbrNFcRWXI-19" vertex="1">
           <mxGeometry x="60" y="50" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="kEkI4fG8PbqbrNFcRWXI-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;设置环境变量&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kEkI4fG8PbqbrNFcRWXI-19" vertex="1">
+        <mxCell id="kEkI4fG8PbqbrNFcRWXI-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;设置环境变量&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="kEkI4fG8PbqbrNFcRWXI-19" vertex="1">
           <mxGeometry x="60" y="175" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="kEkI4fG8PbqbrNFcRWXI-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" source="kEkI4fG8PbqbrNFcRWXI-1" target="kEkI4fG8PbqbrNFcRWXI-20" edge="1">
