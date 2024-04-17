@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T07:50:27.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="gMSzxTEo1sy8Y6wTC0wg" version="24.2.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-04-17T10:27:36.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="QzRdgNUCzdVrX2B7af2p" version="24.2.5" type="github" pages="5">
   <diagram name="发布中心ER图" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="4356" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
@@ -1115,12 +1115,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Tslj9BMBiHs_BAPmmf2x" name="流水线创建及运行流程">
-    <mxGraphModel dx="1056" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gKOiz2mDRem3nW_NY5sE-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;创建流水线&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="210" y="190" width="280" height="280" as="geometry" />
+          <mxGeometry x="140" y="190" width="280" height="280" as="geometry" />
         </mxCell>
         <mxCell id="gKOiz2mDRem3nW_NY5sE-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;流水线名称&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="gKOiz2mDRem3nW_NY5sE-2">
           <mxGeometry x="90" y="90" width="100" height="60" as="geometry" />
@@ -1149,9 +1149,9 @@
             <mxPoint x="570" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gKOiz2mDRem3nW_NY5sE-11" value="&lt;font color=&quot;#ff66b3&quot; style=&quot;font-size: 14px;&quot;&gt;创建完之后再填写具体&lt;br&gt;的执行阶段、步骤，即 &lt;br&gt;更新流水线&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gKOiz2mDRem3nW_NY5sE-10">
+        <mxCell id="gKOiz2mDRem3nW_NY5sE-11" value="&lt;font color=&quot;#ff66b3&quot; style=&quot;font-size: 14px;&quot;&gt;创建完之后再对流水线进行编辑，&lt;br&gt;填写具体的执行阶段、步骤，&lt;br&gt;即更新流水线&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gKOiz2mDRem3nW_NY5sE-10">
           <mxGeometry x="-0.0417" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gKOiz2mDRem3nW_NY5sE-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;数据库&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
