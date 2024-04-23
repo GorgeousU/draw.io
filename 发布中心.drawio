@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T01:41:27.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="7NZ0XysFO9x-F5u9DIXi" version="24.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-04-23T08:36:52.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="2xg0qCR0sSWFvzuiXfEy" version="24.2.8" type="github" pages="6">
   <diagram name="发布中心ER图" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="4356" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
@@ -1325,6 +1325,26 @@
           <mxGeometry x="-0.155" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GWpjcDQ-7Py7Ek5v4cCc" name="归档">
+    <mxGraphModel dx="1056" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T_YuGw3ipZutgNE-1Z9z-3" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="780" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="T_YuGw3ipZutgNE-1Z9z-4" value="" style="swimlane;startSize=0;" vertex="1" parent="T_YuGw3ipZutgNE-1Z9z-3">
+          <mxGeometry x="20" y="60" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="T_YuGw3ipZutgNE-1Z9z-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;构建步骤&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="T_YuGw3ipZutgNE-1Z9z-4">
+          <mxGeometry x="28.75" y="60" width="112.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="T_YuGw3ipZutgNE-1Z9z-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;工作目录：/gitness/repo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="T_YuGw3ipZutgNE-1Z9z-4">
+          <mxGeometry y="10" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
