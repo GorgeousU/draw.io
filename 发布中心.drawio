@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T07:11:33.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ZNjuvvHi3RSgqTHjsVC_" version="24.3.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-30T07:26:59.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="zNJ2JKv0P2VKZqy1kAAa" version="24.3.1" type="github" pages="8">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
     <mxGraphModel dx="1056" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1540,7 +1540,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dog5WfVRobqaGCtVH-2i" name="第 8 页">
-    <mxGraphModel dx="4542" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="4218" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1713,7 +1713,7 @@
         <mxCell id="6B_kW9L6wvWl07Y7PBDj-53" value="datetime" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontStyle=1" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-52">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-54" value="&lt;p style=&quot;line-height: 150%; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#0066cc&quot;&gt;&lt;span&gt;devops_gitlab_host&lt;br&gt;gitlab地址信息实体表&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-54" value="&lt;p style=&quot;line-height: 150%; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#0066cc&quot;&gt;&lt;span&gt;devops_gitlab_host&lt;br&gt;Gitlab地址信息实体表&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-680" y="520" width="200" height="218" as="geometry">
             <mxRectangle x="-50" y="510" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -2064,7 +2064,7 @@
             <mxPoint x="680" y="776" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-156" value="&lt;p style=&quot;line-height: 150%; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#0066cc&quot;&gt;&lt;span&gt;devops_gitlab_user&lt;br&gt;gitlab与平台用户关系表&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-156" value="&lt;p style=&quot;line-height: 150%; font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#0066cc&quot;&gt;&lt;span&gt;devops_gitlab_user&lt;br&gt;Gitlab与平台用户关系表&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-940" y="250" width="200" height="214" as="geometry">
             <mxRectangle x="-50" y="510" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
