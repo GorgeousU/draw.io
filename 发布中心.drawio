@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T05:21:35.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="IWAiv8O7NO3KV04hkZSj" version="24.3.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-30T05:22:32.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="zYKuinKa_2C57ZZH73JH" version="24.3.1" type="github" pages="8">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
     <mxGraphModel dx="1056" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -1540,11 +1540,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dog5WfVRobqaGCtVH-2i" name="第 8 页">
-    <mxGraphModel dx="4356" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="4809" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-1" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_repository&lt;br&gt;代码仓库实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-1" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_repository&lt;br&gt;代码仓库实体表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="-370" y="666" width="200" height="250" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -1654,7 +1654,7 @@
         <mxCell id="6B_kW9L6wvWl07Y7PBDj-34" value="datetime" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-33">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-35" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_host&lt;br&gt;项目主机实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-35" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_host&lt;br&gt;项目主机实体表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="688" width="200" height="272" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -1713,7 +1713,7 @@
         <mxCell id="6B_kW9L6wvWl07Y7PBDj-53" value="Date" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-52">
           <mxGeometry width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-54" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_gitlab_host&lt;br&gt;gitlab地址信息实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-54" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_gitlab_host&lt;br&gt;gitlab地址信息实体表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-650" y="770" width="200" height="194" as="geometry">
             <mxRectangle x="-50" y="510" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -1754,7 +1754,7 @@
         <mxCell id="6B_kW9L6wvWl07Y7PBDj-66" value="Date" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-65">
           <mxGeometry width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-67" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_projects&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;项目实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-67" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_projects&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;项目实体表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="715" width="200" height="280" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -1834,7 +1834,7 @@
             <mxPoint x="-420" y="496" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-89" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_mirror_repository&lt;br&gt;镜像仓库实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-89" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_mirror_repository&lt;br&gt;镜像仓库实体表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-650" y="1106" width="200" height="164" as="geometry">
             <mxRectangle x="-50" y="510" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -1875,7 +1875,7 @@
             <mxPoint x="460" y="994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-101" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_pipeline&lt;br&gt;流水线实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-101" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_pipeline&lt;br&gt;流水线实体表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="266" width="200" height="254" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -1934,7 +1934,7 @@
             <mxPoint x="90" y="286" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-119" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_artifact&lt;br&gt;制品实体表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-119" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_artifact&lt;br&gt;制品实体表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="726" width="200" height="288" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -1993,7 +1993,7 @@
         <mxCell id="6B_kW9L6wvWl07Y7PBDj-137" value="Date" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-136">
           <mxGeometry width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-138" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_pipeline_instance&lt;br&gt;流水线执行实例表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-138" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_pipeline_instance&lt;br&gt;流水线执行实例表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="370" width="200" height="194" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -2064,7 +2064,7 @@
             <mxPoint x="680" y="776" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-156" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_gitlab_user&lt;br&gt;gitlab与平台用户关系表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-156" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_gitlab_user&lt;br&gt;gitlab与平台用户关系表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-920" y="727" width="200" height="190" as="geometry">
             <mxRectangle x="-50" y="510" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
@@ -2140,7 +2140,7 @@
             <mxPoint x="570" y="276" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-175" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 10px;&quot;&gt;devops_pipeline_ste[&lt;br&gt;流水线执行步骤表&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
+        <mxCell id="6B_kW9L6wvWl07Y7PBDj-175" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_pipeline_ste[&lt;br&gt;流水线执行步骤表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="860" y="370" width="200" height="224" as="geometry">
             <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
           </mxGeometry>
