@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T05:22:32.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="zYKuinKa_2C57ZZH73JH" version="24.3.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-30T05:22:44.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="3qnBWM0KZk0Y34XAtf6G" version="24.3.1" type="github" pages="8">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
     <mxGraphModel dx="1056" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -2139,41 +2139,6 @@
             <mxPoint x="470" y="376" as="sourcePoint" />
             <mxPoint x="570" y="276" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-175" value="&lt;p style=&quot;line-height: 100%; font-size: 12px;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;devops_pipeline_ste[&lt;br&gt;流水线执行步骤表&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="370" width="200" height="224" as="geometry">
-            <mxRectangle x="30" y="358" width="160" height="70" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-176" value="id" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=center;verticalAlign=middle;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;" vertex="1" parent="6B_kW9L6wvWl07Y7PBDj-175">
-          <mxGeometry y="26" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-177" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-176">
-          <mxGeometry width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-178" value="pipeline_instance_id" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="6B_kW9L6wvWl07Y7PBDj-175">
-          <mxGeometry y="56" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-179" value="Long" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-178">
-          <mxGeometry width="50" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-180" value="execution_info" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="6B_kW9L6wvWl07Y7PBDj-175">
-          <mxGeometry y="82" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-181" value="String" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-180">
-          <mxGeometry width="50" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-182" value="execution_number" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="6B_kW9L6wvWl07Y7PBDj-175">
-          <mxGeometry y="108" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-183" value="Long" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-182">
-          <mxGeometry width="50" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-184" value="status" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=center;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="6B_kW9L6wvWl07Y7PBDj-175">
-          <mxGeometry y="134" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6B_kW9L6wvWl07Y7PBDj-185" value="String" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6B_kW9L6wvWl07Y7PBDj-184">
-          <mxGeometry width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
