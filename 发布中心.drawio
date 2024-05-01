@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T09:12:47.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="1gutPPTEiba8FA7iYNii" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-01T09:14:02.581Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="yA0XOIrWBkf7Lssiu1-5" version="24.3.1" type="github" pages="9">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
     <mxGraphModel dx="1320" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -2182,16 +2182,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Gitlab repository information&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" vertex="1" parent="MVimhSVZlgufxqnUinok-3">
-          <mxGeometry x="668.46" y="94.23" width="200" height="285.77" as="geometry" />
+          <mxGeometry x="640" y="94.23" width="230" height="295.77" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-16" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Gitlab Repositry Id&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NCosqO03YkeclNgJFaBr-15">
-          <mxGeometry x="10" y="130" width="180" height="59.13" as="geometry" />
+          <mxGeometry x="25" y="135.77" width="180" height="49.13" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-32" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Gitlab Repositry Name&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NCosqO03YkeclNgJFaBr-15">
-          <mxGeometry x="10" y="195.77" width="180" height="69.13" as="geometry" />
+          <mxGeometry x="25" y="210" width="180" height="54.9" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-36" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Gitlab Host Id&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NCosqO03YkeclNgJFaBr-15">
-          <mxGeometry x="10" y="70" width="180" height="49.13" as="geometry" />
+          <mxGeometry x="25" y="75.77" width="180" height="39.13" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="MVimhSVZlgufxqnUinok-3" source="NCosqO03YkeclNgJFaBr-20" target="NCosqO03YkeclNgJFaBr-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2205,7 +2205,7 @@
         <mxCell id="NCosqO03YkeclNgJFaBr-44" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;construct namespace&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="MVimhSVZlgufxqnUinok-3">
           <mxGeometry x="398.46153846153845" y="290" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NCosqO03YkeclNgJFaBr-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MVimhSVZlgufxqnUinok-3" source="NCosqO03YkeclNgJFaBr-11" target="NCosqO03YkeclNgJFaBr-44">
+        <mxCell id="NCosqO03YkeclNgJFaBr-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="MVimhSVZlgufxqnUinok-3" source="NCosqO03YkeclNgJFaBr-11" target="NCosqO03YkeclNgJFaBr-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="488.46153846153845" y="550" as="sourcePoint" />
             <mxPoint x="538.4615384615385" y="500" as="targetPoint" />
@@ -2274,7 +2274,7 @@
             <mxPoint x="1630" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCosqO03YkeclNgJFaBr-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NCosqO03YkeclNgJFaBr-20">
+        <mxCell id="NCosqO03YkeclNgJFaBr-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="NCosqO03YkeclNgJFaBr-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1110" y="660" as="sourcePoint" />
             <mxPoint x="1039" y="400" as="targetPoint" />
