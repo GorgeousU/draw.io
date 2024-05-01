@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T15:21:43.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="EquPAGq0YWbN1PG_9FCt" version="24.3.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-05-01T08:08:13.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="gmW0z-2ITyTOlSzHxlkG" version="24.3.1" type="github" pages="8">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
-    <mxGraphModel dx="1056" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1320" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1380,7 +1380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GWpjcDQ-7Py7Ek5v4cCc" name="归档">
-    <mxGraphModel dx="1625" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1393,7 +1393,7 @@
         <mxCell id="T_YuGw3ipZutgNE-1Z9z-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;构建步骤&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="T_YuGw3ipZutgNE-1Z9z-4" vertex="1">
           <mxGeometry x="28.75" y="60" width="112.5" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="T_YuGw3ipZutgNE-1Z9z-6" value="&lt;font color=&quot;#00ff80&quot; style=&quot;font-size: 14px;&quot;&gt;工作目录：/gitness/repo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T_YuGw3ipZutgNE-1Z9z-4" vertex="1">
+        <mxCell id="T_YuGw3ipZutgNE-1Z9z-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;工作目录：/gitness/repo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T_YuGw3ipZutgNE-1Z9z-4" vertex="1">
           <mxGeometry y="20" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T_YuGw3ipZutgNE-1Z9z-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="T_YuGw3ipZutgNE-1Z9z-3" source="T_YuGw3ipZutgNE-1Z9z-4" target="T_YuGw3ipZutgNE-1Z9z-8" edge="1">
@@ -1413,7 +1413,7 @@
         <mxCell id="T_YuGw3ipZutgNE-1Z9z-13" value="命名为&lt;span style=&quot;background-color: initial;&quot;&gt;{artifact.name}.tar.gz&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="T_YuGw3ipZutgNE-1Z9z-8" vertex="1">
           <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T_YuGw3ipZutgNE-1Z9z-14" value="&lt;font color=&quot;#00ff80&quot; style=&quot;font-size: 14px;&quot;&gt;打包到目录/gitness中&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T_YuGw3ipZutgNE-1Z9z-8" vertex="1">
+        <mxCell id="T_YuGw3ipZutgNE-1Z9z-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;打包到目录/gitness中&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T_YuGw3ipZutgNE-1Z9z-8" vertex="1">
           <mxGeometry x="10" y="18" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T_YuGw3ipZutgNE-1Z9z-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="T_YuGw3ipZutgNE-1Z9z-3" source="T_YuGw3ipZutgNE-1Z9z-8" target="T_YuGw3ipZutgNE-1Z9z-16" edge="1">
@@ -1433,7 +1433,7 @@
         <mxCell id="T_YuGw3ipZutgNE-1Z9z-17" value="minio中的保存路径为&lt;span style=&quot;background-color: initial;&quot;&gt;{artifact.type}-artifacts/&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="T_YuGw3ipZutgNE-1Z9z-16" vertex="1">
           <mxGeometry x="25" y="60" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T_YuGw3ipZutgNE-1Z9z-18" value="&lt;font color=&quot;#00ff80&quot; style=&quot;font-size: 14px;&quot;&gt;上传到minio&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T_YuGw3ipZutgNE-1Z9z-16" vertex="1">
+        <mxCell id="T_YuGw3ipZutgNE-1Z9z-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;上传到minio&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T_YuGw3ipZutgNE-1Z9z-16" vertex="1">
           <mxGeometry x="40" y="18" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T_YuGw3ipZutgNE-1Z9z-22" value="&lt;font color=&quot;#ff9933&quot; style=&quot;font-size: 24px;&quot;&gt;Pipeline&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="T_YuGw3ipZutgNE-1Z9z-3" vertex="1">
@@ -1489,7 +1489,7 @@
             <mxPoint x="550" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3Ie0IJMvwASuW5CQy-kU-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;&quot;&gt;利用流水线scp插件传输&lt;/font&gt;{artifact.name}.tar.gz&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="T_YuGw3ipZutgNE-1Z9z-3" vertex="1">
+        <mxCell id="3Ie0IJMvwASuW5CQy-kU-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;&quot;&gt;利用Giness流水线scp插件传输&lt;/font&gt;{artifact.name}.tar.gz&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="T_YuGw3ipZutgNE-1Z9z-3" vertex="1">
           <mxGeometry x="320" y="460" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3Ie0IJMvwASuW5CQy-kU-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="T_YuGw3ipZutgNE-1Z9z-3" source="3Ie0IJMvwASuW5CQy-kU-21" target="3Ie0IJMvwASuW5CQy-kU-19" edge="1">
@@ -1540,7 +1540,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dog5WfVRobqaGCtVH-2i" name="表关系图">
-    <mxGraphModel dx="5060" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="4356" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
