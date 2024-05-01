@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T09:06:27.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JprWptJcwNkk8f3xWzEp" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-01T09:07:32.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="H0tRHcCJ-WHoYjTrho7R" version="24.3.1" type="github" pages="9">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
     <mxGraphModel dx="1320" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -2160,14 +2160,14 @@
         <mxCell id="NCosqO03YkeclNgJFaBr-2" value="" style="swimlane;startSize=0;" vertex="1" parent="MVimhSVZlgufxqnUinok-3">
           <mxGeometry x="28.46" y="67.02" width="560.51" height="222.98" as="geometry" />
         </mxCell>
-        <mxCell id="NCosqO03YkeclNgJFaBr-8" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;create repository&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="NCosqO03YkeclNgJFaBr-2">
-          <mxGeometry x="48.974358974359006" y="21.730769230769226" width="100" height="60" as="geometry" />
+        <mxCell id="NCosqO03YkeclNgJFaBr-8" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;create repository&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="NCosqO03YkeclNgJFaBr-2">
+          <mxGeometry x="20" y="12.6" width="140" height="78.27" as="geometry" />
         </mxCell>
-        <mxCell id="NCosqO03YkeclNgJFaBr-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;choose Gitlab repository&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="NCosqO03YkeclNgJFaBr-2">
-          <mxGeometry x="388.97" y="20.1" width="120" height="63.27" as="geometry" />
+        <mxCell id="NCosqO03YkeclNgJFaBr-20" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;choose Gitlab repository&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="NCosqO03YkeclNgJFaBr-2">
+          <mxGeometry x="370" y="20.1" width="138.97" height="63.27" as="geometry" />
         </mxCell>
-        <mxCell id="NCosqO03YkeclNgJFaBr-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;through&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="NCosqO03YkeclNgJFaBr-2">
-          <mxGeometry x="228.97000000000003" y="11.735000000000003" width="80" height="80" as="geometry" />
+        <mxCell id="NCosqO03YkeclNgJFaBr-22" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;through&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="NCosqO03YkeclNgJFaBr-2">
+          <mxGeometry x="223.46" y="7.6000000000000005" width="91.03" height="88.27" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NCosqO03YkeclNgJFaBr-2" source="NCosqO03YkeclNgJFaBr-8" target="NCosqO03YkeclNgJFaBr-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2199,7 +2199,7 @@
             <mxPoint x="748.4615384615385" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NCosqO03YkeclNgJFaBr-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;projectId&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MVimhSVZlgufxqnUinok-3">
+        <mxCell id="NCosqO03YkeclNgJFaBr-11" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;projectId&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="MVimhSVZlgufxqnUinok-3">
           <mxGeometry x="38.45820512820501" y="320.00384615384615" width="118.46153846153847" height="47.30769230769231" as="geometry" />
         </mxCell>
         <mxCell id="MVimhSVZlgufxqnUinok-10" value="" style="swimlane;startSize=0;rounded=0;swimlaneLine=1;" parent="MVimhSVZlgufxqnUinok-11" vertex="1">
