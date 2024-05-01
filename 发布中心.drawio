@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T08:55:58.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="KbZXw7WVskmo6wso5yED" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-01T08:57:08.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="KLwmlYLVrJXe5vn8Fg0X" version="24.3.1" type="github" pages="9">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
     <mxGraphModel dx="1320" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -2144,7 +2144,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KkSxr-HroP7gIB8TEaAM" name="代码仓库架构">
-    <mxGraphModel dx="1509" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1760" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2203,12 +2203,12 @@
           <mxGeometry x="40" y="80.87" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-17" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="705" y="560" width="350" height="200" as="geometry">
+          <mxGeometry x="745" y="560" width="270" height="140" as="geometry">
             <mxRectangle x="140" y="370" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MVimhSVZlgufxqnUinok-6" value="" style="group" parent="NCosqO03YkeclNgJFaBr-17" vertex="1" connectable="0">
-          <mxGeometry x="50" y="50" width="115" height="90" as="geometry" />
+          <mxGeometry x="10" y="30" width="115" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MVimhSVZlgufxqnUinok-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MVimhSVZlgufxqnUinok-6" vertex="1">
           <mxGeometry width="115" height="90" as="geometry" />
@@ -2217,10 +2217,10 @@
           <mxGeometry x="2.430000000000007" y="40" width="110.14" height="27" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Gitlab IP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NCosqO03YkeclNgJFaBr-17">
-          <mxGeometry x="200" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="20" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-19" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;token&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NCosqO03YkeclNgJFaBr-17">
-          <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="80" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;repository&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="290.00051282051277" y="169.9953846153846" width="113.52564102564104" height="63.07692307692307" as="geometry" />
