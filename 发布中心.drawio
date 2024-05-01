@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T08:30:54.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="FijnKmC-l5XT9NFE37bX" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-01T08:31:03.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="eGBtEhRd2X6zK8OA3Syb" version="24.3.1" type="github" pages="9">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
     <mxGraphModel dx="1320" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -2184,8 +2184,8 @@
         <mxCell id="MVimhSVZlgufxqnUinok-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Logged user&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="MVimhSVZlgufxqnUinok-8" vertex="1">
           <mxGeometry x="25.161290322580644" y="1.75" width="109.03225806451611" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NCosqO03YkeclNgJFaBr-4" value="create repository" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="380" y="370" width="120" height="70" as="geometry" />
+        <mxCell id="NCosqO03YkeclNgJFaBr-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;create repository&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="370" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NCosqO03YkeclNgJFaBr-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MVimhSVZlgufxqnUinok-2" target="NCosqO03YkeclNgJFaBr-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
