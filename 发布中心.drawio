@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T05:47:50.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="xmkOV7B4-xh0y_QVk8St" version="24.3.1" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2024-05-07T05:48:25.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="j1bRPs6L44j4GAerZBGe" version="24.3.1" type="github" pages="17">
   <diagram id="YYnuR0WC59auyuDcMxsU" name="平台架构">
     <mxGraphModel dx="1056" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -3269,10 +3269,10 @@
           <mxGeometry x="16" y="150" width="42" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.object;fillColor=#E05243;gradientColor=none;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-4">
-          <mxGeometry x="100" y="150" width="42" height="45" as="geometry" />
+          <mxGeometry x="124" y="150" width="42" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-16" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.object;fillColor=#E05243;gradientColor=none;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-4">
-          <mxGeometry x="200" y="150" width="42" height="45" as="geometry" />
+          <mxGeometry x="228" y="150" width="42" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-7" value="" style="swimlane;startSize=0;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-2">
           <mxGeometry x="340" y="70" width="390" height="200" as="geometry" />
@@ -3281,22 +3281,22 @@
           <mxGeometry x="7.24" y="10" width="82.76" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;存储路径&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;/release-artifacts/&lt;/font&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;{pipelineId}/{version}&lt;/span&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;/&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;{artifactName}.tar.gz&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-7">
-          <mxGeometry x="20" y="50" width="330" height="90" as="geometry" />
+          <mxGeometry x="30" y="50" width="330" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-19" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.object;fillColor=#E05243;gradientColor=none;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-7">
           <mxGeometry x="27.62" y="150" width="42" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.object;fillColor=#E05243;gradientColor=none;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-7">
-          <mxGeometry x="90" y="150" width="42" height="45" as="geometry" />
+          <mxGeometry x="100" y="150" width="42" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-21" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.object;fillColor=#E05243;gradientColor=none;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-7">
-          <mxGeometry x="154" y="150" width="42" height="45" as="geometry" />
+          <mxGeometry x="174" y="150" width="42" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-22" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.object;fillColor=#E05243;gradientColor=none;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-7">
-          <mxGeometry x="220" y="150" width="42" height="45" as="geometry" />
+          <mxGeometry x="250" y="150" width="42" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-23" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.object;fillColor=#E05243;gradientColor=none;strokeWidth=2;" vertex="1" parent="wIIwvcvCfOGCR4Ar0G6h-7">
-          <mxGeometry x="280" y="150" width="42" height="45" as="geometry" />
+          <mxGeometry x="318" y="150" width="42" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wIIwvcvCfOGCR4Ar0G6h-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;流水线标识id&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;（pipelineId）&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="180" y="240" width="120" height="60" as="geometry" />
