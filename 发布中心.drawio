@@ -150,7 +150,7 @@
         <mxCell id="Ewsk159j_YoBUFo1CJAD-1" value="" style="swimlane;startSize=0;strokeWidth=2;" parent="bE2kuQ-jD9IBsUv8GavA-8" vertex="1">
           <mxGeometry x="575" y="270" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Ewsk159j_YoBUFo1CJAD-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;主机&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="Ewsk159j_YoBUFo1CJAD-1" vertex="1">
+        <mxCell id="Ewsk159j_YoBUFo1CJAD-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;部署主机&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="Ewsk159j_YoBUFo1CJAD-1" vertex="1">
           <mxGeometry x="32.5" y="27.5" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eot-8rxISEO6zpF5si4X-4" value="" style="swimlane;startSize=0;strokeWidth=2;" vertex="1" parent="bE2kuQ-jD9IBsUv8GavA-8">
