@@ -13,7 +13,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oiUdcjGEBhYvgrvljEje-3" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="120" width="410" height="330" as="geometry" />
+          <mxGeometry x="440" y="120" width="630" height="470" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-1" value="基于角色的权限控制&lt;div&gt;RBAC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-3">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
@@ -29,6 +29,36 @@
             <mxPoint x="260" y="300" as="sourcePoint" />
             <mxPoint x="310" y="250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-21" value="Doris用户权限" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-3">
+          <mxGeometry x="220" y="50" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-22" value="Node_priv（节点变更权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="26" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-23" value="Grant_priv（权限变更权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-24" value="Select_priv（只读权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-25" value="Load_priv（写入权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-26" value="Alter_priv（更改权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-27" value="Create_priv（创建权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-28" value="Drop_priv（删除权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-29" value="Usage_priv（Resource和Workload Group使用权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="240" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-30" value="Show_view_priv（执行SHOW CREATE VIEW权限）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-21">
+          <mxGeometry y="280" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
