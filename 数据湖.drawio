@@ -16,13 +16,13 @@
           <mxGeometry x="440" y="120" width="410" height="330" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-1" value="基于角色的权限控制&lt;div&gt;RBAC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-3">
-          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Doris&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-3">
           <mxGeometry x="20" y="10" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oiUdcjGEBhYvgrvljEje-5" value="每个用户创建时有一个专属于此用户的默认角色，给此用户授权时，实际上是给该用户的默认角色授权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-3">
-          <mxGeometry x="40" y="170" width="120" height="120" as="geometry" />
+        <mxCell id="oiUdcjGEBhYvgrvljEje-5" value="每个用户创建时有一个专属于此用户的默认角色，给此用户授权时，实际上是给该用户的默认角色授权&lt;div&gt;并且该默认角色不能被删除、不能被分配给其他用户，该用户被删除时，这个角色会被删除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-3">
+          <mxGeometry x="40" y="140" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-3" source="oiUdcjGEBhYvgrvljEje-5" target="oiUdcjGEBhYvgrvljEje-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
