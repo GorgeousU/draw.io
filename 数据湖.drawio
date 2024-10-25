@@ -807,9 +807,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-43" value="授予用户表权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
-          <mxGeometry x="420" y="50" width="120" height="60" as="geometry" />
+          <mxGeometry x="590" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-44" value="1.授予时在表中记录权限，并在doris中执行相应的权限授予/撤销sql" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="592.5" y="160" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-46" target="0yJIga51RUbaZ1Ornm_v-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-46" value="用户初始权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="770" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-47" value="1.在项目中，用户初始拥有对数据库的创建表权限" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="772.5" y="160" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-49" target="0yJIga51RUbaZ1Ornm_v-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-49" value="入湖任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="940" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-50" value="1.入湖任务使用当前平台登录用户&lt;div&gt;2.入湖任务生成的表由该用户拥有所有权限&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="942.5" y="160" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-52" target="0yJIga51RUbaZ1Ornm_v-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-52" value="数据作业" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="1100" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-53" value="1.数据作业运行时可能会涉及到对doris表的查询，这时如果没有授权给该用户，就会报权限错误" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="1102.5" y="160" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-56" target="0yJIga51RUbaZ1Ornm_v-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-56" value="项目表权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="420" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-57" value="1.项目管理员自动对项目中的所有目录和数据库、表有所有权限" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
           <mxGeometry x="422.5" y="160" width="115" height="115" as="geometry" />
         </mxCell>
       </root>
