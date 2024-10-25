@@ -583,6 +583,14 @@
         <mxCell id="oiUdcjGEBhYvgrvljEje-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-201" target="oiUdcjGEBhYvgrvljEje-209">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-201" target="0yJIga51RUbaZ1Ornm_v-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="105" />
+              <mxPoint x="250" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-201" value="平台与doris用户关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="50" y="70" width="150" height="70" as="geometry" />
         </mxCell>
@@ -666,6 +674,9 @@
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-27" value="&lt;span style=&quot;color: rgb(255, 51, 153);&quot;&gt;需要线下申请：&lt;/span&gt;&lt;div&gt;doris用户创建&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="65" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-31" value="在平台doris用户表中查询/创建与username相同名称的doris用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
+          <mxGeometry x="285" y="415" width="135" height="75" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-270" value="" style="shape=partialRectangle;fillColor=none;align=left;verticalAlign=middle;strokeColor=none;spacingLeft=34;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="1240" width="30" height="30" as="geometry" />
