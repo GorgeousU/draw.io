@@ -586,6 +586,9 @@
         <mxCell id="oiUdcjGEBhYvgrvljEje-201" value="平台与doris用户关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="50" y="70" width="150" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-202" target="0yJIga51RUbaZ1Ornm_v-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-202" value="当平台用户被创建时，相对应的doris用户也会被创建，并且无权限" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="20" y="270" width="90" height="90" as="geometry" />
         </mxCell>
@@ -601,7 +604,10 @@
         <mxCell id="oiUdcjGEBhYvgrvljEje-209" value="平台用户已存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="130" y="180" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oiUdcjGEBhYvgrvljEje-212" value="&lt;font color=&quot;#ff3399&quot;&gt;需要线下申请&lt;/font&gt;：&lt;div&gt;创建一个相对应的doris用户，并且无权限&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-212" target="0yJIga51RUbaZ1Ornm_v-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oiUdcjGEBhYvgrvljEje-212" value="&lt;div&gt;创建一个相对应的doris用户，并且无权限&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="140" y="270" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-216" target="oiUdcjGEBhYvgrvljEje-219">
@@ -657,6 +663,9 @@
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-25" value="权限范围：&lt;div&gt;internal.*.*&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-21">
           <mxGeometry x="170" y="110" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-27" value="&lt;span style=&quot;color: rgb(255, 51, 153);&quot;&gt;需要线下申请：&lt;/span&gt;&lt;div&gt;doris用户创建&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
+          <mxGeometry x="65" y="415" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-270" value="" style="shape=partialRectangle;fillColor=none;align=left;verticalAlign=middle;strokeColor=none;spacingLeft=34;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="1240" width="30" height="30" as="geometry" />
