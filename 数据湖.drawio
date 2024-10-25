@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NLyJUqlzEAnoH9XhKxW2" name="doris单表权限控制设计">
-    <mxGraphModel dx="1501" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -661,8 +661,8 @@
         <mxCell id="0yJIga51RUbaZ1Ornm_v-24" value="权限：&lt;div&gt;1.Grant_priv&lt;/div&gt;&lt;div&gt;2.&lt;span style=&quot;background-color: initial;&quot;&gt;Select_priv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Load_priv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Alter_priv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Create_priv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;6.Drop_priv&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-21">
           <mxGeometry x="22.5" y="110" width="115" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="0yJIga51RUbaZ1Ornm_v-25" value="权限范围：&lt;div&gt;internal.*.*&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-21">
-          <mxGeometry x="170" y="110" width="115" height="115" as="geometry" />
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-25" value="权限范围：&lt;div&gt;internal.*.*&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-21">
+          <mxGeometry x="180" y="125" width="85" height="85" as="geometry" />
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-27" value="&lt;span style=&quot;color: rgb(255, 51, 153);&quot;&gt;需要线下申请：&lt;/span&gt;&lt;div&gt;doris用户创建&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="65" y="415" width="120" height="60" as="geometry" />
