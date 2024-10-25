@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NLyJUqlzEAnoH9XhKxW2" name="doris单表权限控制设计">
-    <mxGraphModel dx="2037" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -533,7 +533,7 @@
           <mxGeometry width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-186" value="表权限组表&lt;br&gt;（lake_table_permission_group）" style="shape=table;startSize=60;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1200" width="180" height="150" as="geometry" />
+          <mxGeometry x="460" y="1200" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-187" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-186">
           <mxGeometry y="60" width="180" height="30" as="geometry" />
@@ -569,13 +569,13 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oiUdcjGEBhYvgrvljEje-195" value="created_time" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-193">
+        <mxCell id="oiUdcjGEBhYvgrvljEje-195" value="description" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-193">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-200" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="780" width="1020" height="525" as="geometry" />
+          <mxGeometry x="1420" y="780" width="1180" height="525" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-201" target="oiUdcjGEBhYvgrvljEje-204">
           <mxGeometry relative="1" as="geometry" />
@@ -601,7 +601,7 @@
         <mxCell id="oiUdcjGEBhYvgrvljEje-209" value="平台用户已存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="130" y="180" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oiUdcjGEBhYvgrvljEje-212" value="创建一个相对应的doris用户，并且无权限" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
+        <mxCell id="oiUdcjGEBhYvgrvljEje-212" value="&lt;font color=&quot;#ff3399&quot;&gt;需要线下申请&lt;/font&gt;：&lt;div&gt;创建一个相对应的doris用户，并且无权限&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="140" y="270" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-216" target="oiUdcjGEBhYvgrvljEje-219">
@@ -642,6 +642,21 @@
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-230" value="无表权限，需赋权&lt;span style=&quot;text-align: left;&quot;&gt;Create_priv权限&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="660" y="195" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-21" value="平台大账户" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
+          <mxGeometry x="830" y="70" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-22" value="账号：datalake" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-21">
+          <mxGeometry x="90" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-21" source="0yJIga51RUbaZ1Ornm_v-24" target="0yJIga51RUbaZ1Ornm_v-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-24" value="权限：&lt;div&gt;1.Grant_priv&lt;/div&gt;&lt;div&gt;2.&lt;span style=&quot;background-color: initial;&quot;&gt;Select_priv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Load_priv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Alter_priv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Create_priv&lt;/span&gt;&lt;/div&gt;&lt;div&gt;6.Drop_priv&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-21">
+          <mxGeometry x="22.5" y="110" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-25" value="权限范围：&lt;div&gt;internal.*.*&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-21">
+          <mxGeometry x="170" y="110" width="115" height="115" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-270" value="" style="shape=partialRectangle;fillColor=none;align=left;verticalAlign=middle;strokeColor=none;spacingLeft=34;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="1240" width="30" height="30" as="geometry" />
@@ -735,6 +750,17 @@
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-16" value="1.返回表权限列表，返回内容包括" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-3">
           <mxGeometry x="627.5" y="310" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-18" value="created_time" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1350" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-19" value="" style="shape=partialRectangle;fillColor=none;align=left;verticalAlign=middle;strokeColor=none;spacingLeft=34;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-20" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;stokeWidth=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="0yJIga51RUbaZ1Ornm_v-19">
+          <mxGeometry width="10" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
