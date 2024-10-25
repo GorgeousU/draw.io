@@ -836,7 +836,7 @@
         <mxCell id="0yJIga51RUbaZ1Ornm_v-52" value="数据作业" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
           <mxGeometry x="1100" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0yJIga51RUbaZ1Ornm_v-53" value="1.数据作业运行时可能会涉及到对doris表的查询，这时如果没有授权给该用户，就会报权限错误" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-53" value="1.执行用户是当前登录用户&lt;br&gt;2.数据作业运行时可能会涉及到对doris表的查询，这时如果没有授权给该用户，就会报权限错误" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
           <mxGeometry x="1102.5" y="160" width="115" height="115" as="geometry" />
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-56" target="0yJIga51RUbaZ1Ornm_v-57">
@@ -847,6 +847,15 @@
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-57" value="1.项目管理员自动对项目中的所有目录和数据库、表有所有权限" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
           <mxGeometry x="422.5" y="160" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-58" target="0yJIga51RUbaZ1Ornm_v-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-58" value="查询分析" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="1260" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-59" value="1.执行用户是当前登录用户" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="1262.5" y="160" width="115" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
