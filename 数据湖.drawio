@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NLyJUqlzEAnoH9XhKxW2" name="doris单表权限控制设计">
-    <mxGraphModel dx="2194" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -575,7 +575,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-200" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="780" width="1180" height="840" as="geometry" />
+          <mxGeometry x="1420" y="780" width="1180" height="540" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-201" target="oiUdcjGEBhYvgrvljEje-204">
           <mxGeometry relative="1" as="geometry" />
@@ -781,6 +781,36 @@
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-20" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;stokeWidth=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="0yJIga51RUbaZ1Ornm_v-19">
           <mxGeometry width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-34" value="总流程" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1360" width="1400" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-35" target="0yJIga51RUbaZ1Ornm_v-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-35" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;创建doris用户&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3399&quot;&gt;（线下联系管理员创建）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="220" y="50" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-37" value="1.管理员在审批项目的加入时，根据用户名和用户提供的密码在doris中创建用户" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="232.5" y="160" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-39" target="0yJIga51RUbaZ1Ornm_v-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-39" value="用户申请加入项目" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-41" value="&lt;font color=&quot;#994c00&quot;&gt;1.需要设计一个审批流程，由平台管理员审批加入申请&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#994c00&quot;&gt;2.如果此用户没有在doris中创建，那么该加入申请需要附带一个doris的密码&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#994c00&quot;&gt;3.在管理员审批同意时在表中添加该doris用户信息&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="27.5" y="130" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0yJIga51RUbaZ1Ornm_v-34" source="0yJIga51RUbaZ1Ornm_v-43" target="0yJIga51RUbaZ1Ornm_v-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-43" value="授予用户表权限" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="420" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yJIga51RUbaZ1Ornm_v-44" value="1.授予时在表中记录权限，并在doris中执行相应的权限授予/撤销sql" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yJIga51RUbaZ1Ornm_v-34">
+          <mxGeometry x="422.5" y="160" width="115" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
