@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NLyJUqlzEAnoH9XhKxW2" name="doris单表权限控制设计">
-    <mxGraphModel dx="1240" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="2194" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -575,7 +575,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-200" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="780" width="1180" height="525" as="geometry" />
+          <mxGeometry x="1420" y="780" width="1180" height="840" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-201" target="oiUdcjGEBhYvgrvljEje-204">
           <mxGeometry relative="1" as="geometry" />
@@ -591,7 +591,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oiUdcjGEBhYvgrvljEje-201" value="平台与doris用户关联" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
+        <mxCell id="oiUdcjGEBhYvgrvljEje-201" value="平台与doris用户关联" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="50" y="70" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-202" target="0yJIga51RUbaZ1Ornm_v-27">
@@ -624,7 +624,7 @@
         <mxCell id="oiUdcjGEBhYvgrvljEje-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-216" target="oiUdcjGEBhYvgrvljEje-224">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oiUdcjGEBhYvgrvljEje-216" value="doris表权限授权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
+        <mxCell id="oiUdcjGEBhYvgrvljEje-216" value="doris表权限授权" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="270" y="70" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-219" target="oiUdcjGEBhYvgrvljEje-221">
@@ -651,7 +651,7 @@
         <mxCell id="oiUdcjGEBhYvgrvljEje-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oiUdcjGEBhYvgrvljEje-200" source="oiUdcjGEBhYvgrvljEje-229" target="oiUdcjGEBhYvgrvljEje-230">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oiUdcjGEBhYvgrvljEje-229" value="平台用户第一次进入项目中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
+        <mxCell id="oiUdcjGEBhYvgrvljEje-229" value="平台用户第一次进入项目中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
           <mxGeometry x="640" y="70" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-230" value="无表权限，需赋权&lt;span style=&quot;text-align: left;&quot;&gt;Create_priv权限&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
@@ -676,7 +676,7 @@
           <mxGeometry x="65" y="415" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-31" value="在平台doris用户表中查询/创建与username相同名称的doris用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oiUdcjGEBhYvgrvljEje-200">
-          <mxGeometry x="285" y="415" width="135" height="75" as="geometry" />
+          <mxGeometry x="290" y="415" width="135" height="75" as="geometry" />
         </mxCell>
         <mxCell id="oiUdcjGEBhYvgrvljEje-270" value="" style="shape=partialRectangle;fillColor=none;align=left;verticalAlign=middle;strokeColor=none;spacingLeft=34;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="1240" width="30" height="30" as="geometry" />
