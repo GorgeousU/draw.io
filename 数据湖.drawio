@@ -1095,7 +1095,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-189" value="空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="1910" width="80" height="40" as="geometry" />
+          <mxGeometry x="2060" y="1885" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0yJIga51RUbaZ1Ornm_v-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0yJIga51RUbaZ1Ornm_v-193" target="0yJIga51RUbaZ1Ornm_v-181">
           <mxGeometry relative="1" as="geometry" />
