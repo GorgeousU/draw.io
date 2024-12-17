@@ -1666,7 +1666,7 @@
         <mxCell id="tezt7eBsB2WFEn4oYNP6-95" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;stokeWidth=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="tezt7eBsB2WFEn4oYNP6-94">
           <mxGeometry width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="tezt7eBsB2WFEn4oYNP6-69" value="post_task_code&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#336600&quot;&gt;&quot;后置任务码&quot;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="tezt7eBsB2WFEn4oYNP6-252">
+        <mxCell id="tezt7eBsB2WFEn4oYNP6-69" value="post_task_code&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#336600&quot;&gt;&quot;当前任务码&quot;&lt;/font&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="tezt7eBsB2WFEn4oYNP6-252">
           <mxGeometry x="30" y="150" width="190" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
